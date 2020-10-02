@@ -24,35 +24,35 @@ as semantic maps as input.
 > ```
 
 > Step 2
-> ### *Adjust working environment*
+> #### *Adjust working environment*
 > * [Create virtual environment](https://docs.python.org/3/tutorial/venv.html)
 
 > Step 3
-> ### *Install -r required packages*
+> #### *Install required packages*
 > ```shell
-> pip install requirements.txt
+> pip install -r requirements.txt
 > ```
 
 > Step 4
-> ### *Download required assets*
+> #### *Download required assets*
 > ```shell
 > python model_asset.py
 > ```
 
 > Step 5
-> ### *Collect static files*
+> #### *Collect static files*
 > ```shell
 > python manage.py collectstatic
 > ```
 
 > Step 6
-> ### *Run server*
+> #### *Run server*
 > ```shell
 > python manage.py runserver
 > ```
 
 > Step 7
-> ### *Voilà!! We are good to go.*
+> #### *Voilà!! We are good to go.*
 
 &nbsp;
 &nbsp;
