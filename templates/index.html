@@ -1,0 +1,71 @@
+{% extends 'homebase.html' %}
+
+{% block content %}
+
+<div class="opener_vid">
+    <div class="rain_vid" id="rain_bg" >
+        <video
+            poster="static/img/main/_rain.png"
+            autoplay
+            loop
+            muted
+        >
+            <source
+                src="static/img/main/_rain1_5M.mp4"
+                type="video/mp4"
+            />
+        </video>
+    </div>
+    <div class="tbl_img" id="tbl" >
+        <img src="static/img/main/_tbl.png" alt="" />
+    </div>
+    <div class="cup_img" id="cup" >
+        <img src="static/img/main/coffee.gif" />
+    </div>
+    <div class="ttl">
+        <div id="ttl_txt1">Paint</div>
+        <div id="ttl_txt2">Your Memory</div>
+    </div>
+</div>
+<div class="disc_sec">
+    <div id="intro">
+        <span>Over the last decade, the process of automatic image colorization has been of significant interest for several
+        application areas including restoration of aged or degraded images. This problem is highly ill-posed due to the large
+        degrees of freedom during the assignment of color information. Many of the recent developments in automatic colorization
+        involve images that contain a common theme or require highly processed data such as semantic maps as input.</span><br><br>
+
+        <span>Colorization, a task of coloring monochrome images or videos, plays an important role in the human perception of visual
+        information, to black and white pictures or videos. There exist a large number of historic photographs and videos which
+        contain an insufficient amount of colors and luminance information. Colorizing those images will help us in recreating
+        those moments and a better perception of the old times. The rapid progress in multimedia application computer technology
+        has resulted in a rapid increase in digital image use. The rich knowledge contained a wide range of uses including crime
+        prevention, military, home entertainment, education, and cultural heritage are used in this data collection and medical
+        diagnosis.</span><br><br>
+
+        <span>A single picture might take months to color in photoshop get exactly correct. Understanding the tediousness of the task
+        and inspired by the benefits of artificial intelligence, we propose a mechanism to automate the coloring process with
+        the help of convolutional neural networks.</span>
+    </div>
+</div>
+<div class="members">
+    <div class="mem_title">Behind The Scene</div>
+    <div id="app" class="mem_container">
+        <card
+            data-image="static/img/members/_01.jpg">
+            <h1 slot="header">Mezbaul Islam Protick</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </card>
+        <card
+            data-image="static/img/members/_01.jpg">
+            <h1 slot="header">Adiba Amin</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </card>
+        <card
+            data-image="static/img/members/_01.jpg">
+            <h1 slot="header">Moni Jannat</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </card>
+    </div>
+</div>
+
+{% endblock %}

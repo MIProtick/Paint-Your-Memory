@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Paint your Moments</title>
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="{% static 'fontawesome/css/all.min.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/mycss.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/myscss.css' %}" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page">
+            <span class="menu_toggle">
+                <i class="menu_open fa fa-bars fa-lg"></i>
+                <i class="menu_close fa fa-times fa-lg"></i>
+            </span>
+            <ul class="menu_items">
+                <li>
+                    <a href="{% url 'color' %}"><i class="icon fa fa-cogs fa-2x"></i> Run Model </a>
+                </li>
+                <li>
+                    <a href="#"
+                        ><i class="icon fa fa-scroll fa-2x"></i> Project Report </a
+                    >
+                </li>
+                <li>
+                    <a href="#"
+                        ><i class="icon fa fa-swatchbook fa-2x"></i> Related papers</a
+                    >
+                </li>
+            </ul>
+            <main class="content" id="cont">
+                <div class="content_inner">
+                    {% block content %}{% endblock %}
+                </div>
+            </main>
+        </div>
+        <!-- javascript -->
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/anime.min.js' %}"></script>
+        <script src="{% static 'js/noframework.waypoints.js' %}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="{% static 'fontawesome/js/all.min.js' %}"></script>
+        <script src="{% static 'js/animate.js' %}"></script>
+        <script src="{% static 'js/myjs.js' %}"></script>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+form {
+    padding: 5px;
+    width: 100%;
+    margin: -20px auto 0 auto;
+}
+.segment {
+    text-align: center;
+}
+.segment hr{
+    max-width: 700px;
+    opacity: 0.09;
+    margin-bottom: 15px;
+}
+.head{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    color: #61677c;
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #fff;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+button:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button.unit {
+    border-radius: 8px;
+    line-height: 0;
+    min-width: 120px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 16px;
+}
+button.unit a{
+    color: #61677c;
+    text-decoration: none;
+}
+button.unit svg{
+    margin: 0 10px;
+}
+
+.img_up{
+    max-width: 750px;
+    display: block;
+    margin: auto;
+}
+
+#img_ch{
+    height: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 320px;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+}
+#img_ch *{
+    width: 270px;
+    height: inherit;
+    overflow: hidden;
+    min-width: 200px;
+    font-size: 18px;
+    padding: 0;
+}
+#img_ch label{
+    margin: 0 7%;
+    font-size: 21px;
+    opacity: 0.7;
+}
+
+#sbmt{
+    justify-content: center;
+    display: flex;
+}
+
+#sbmt_btn{
+    width: 150px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    border-radius: 320px;
+    background-color: #ebecf0;
+    color: #61677c;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 0;
+}
+
+init{
+    width: 50%;
+    padding: 50px;
+}
+
+.inp_out{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px auto;
+}
+
+.inp_out div{
+    width: 384px;
+    height: 384px;
+    padding: 12px;
+    margin: 20px;
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    background-color: #ebecf0;
+    color: #61677c;
+}
+
+.inp_out div img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
