@@ -16,31 +16,31 @@ as semantic maps as input.
 
 &nbsp;
 ## Methodology
-> Step 1: #### *Clone the repository*
+> **Step 1: *Clone the repository***
 > ```shell
 > git clone https://github.com/MIProtick/Paint-Your-Memory.git
 > cd Paint-Your-Memory
 > ```
 
-> Step 2: #### *Adjust working environment*
+> **Step 2: *Adjust working environment***
 > * [Create virtual environment](https://docs.python.org/3/tutorial/venv.html)
 
-> Step 3: #### *Install required packages*
+> **Step 3: *Install required packages***
 > ```shell
 > pip install -r requirements.txt
 > ```
 
-> Step 4: #### *Download required assets*
+> **Step 4: *Download required assets***
 > ```shell
 > python model_asset.py
 > ```
 
-> Step 5: #### *Collect static files*
+> **Step 5:** *Collect static files*
 > ```shell
 > python manage.py collectstatic
 > ```
 
-> Step 6: #### *Run server*
+> **Step 6:** *Run server*
 > ```shell
 > python manage.py runserver
 > ```
