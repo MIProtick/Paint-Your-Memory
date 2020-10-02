@@ -1,6 +1,7 @@
 # custom
 db.sqlite3
 media/*
+!media/
 .vscode
 .vscode/*
 *.ipynb_checkpoints
